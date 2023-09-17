@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ******************* -->
+    <!-- The common settings -->
+    <!-- ******************* -->
+
+    <PreferenceCategory
+        android:title="@string/pref_settings_title"
+        android:key="pref_key_settings">
+
+        <!-- The shake to clean -->
+        <CheckBoxPreference
+            android:key="pref_key_settings_shaketoclean"
+            android:title="@string/pref_settings_shaketoclean_title"
+            android:summary="@string/pref_settings_shaketoclean_summary"
+            android:defaultValue="false"/>
+
+        <!--&lt;!&ndash; Start standalone mode on boot &ndash;&gt;-->
+        <!--<CheckBoxPreference-->
+            <!--android:key="pref_key_settings_start_standalone_on_boot"-->
+            <!--android:title="@string/pref_settings_start_standalone_on_boot_title"-->
+            <!--android:summary="@string/pref_settings_start_standalone_on_boot_summary"-->
+            <!--android:defaultValue="false"-->
+            <!--android:checked="false"/>-->
+
+    </PreferenceCategory>
+
+    <!-- ******************************************* -->
+    <!-- The settings about screen / wake  / battery -->
+    <!-- ******************************************* -->
+
+    <PreferenceCategory
+        android:title="@string/pref_wakescreenbattery_title"
+        android:key="pref_key_wakescreen">
+
+        <!-- Enable or not the wakelock -->
+        <CheckBoxPreference
+            android:key="pref_key_settings_wakelock"
+            android:checked="true"
+            android:title="@string/pref_key_wakelock_title"
+            android:summary="@string/pref_key_wakelock_summary"
+            android:defaultValue="true"/>
+
+        <!-- Enable or disable the force mode -->
+        <CheckBoxPreference
+            android:key="pref_key_settings_forcescreenon_battery"
+            android:checked="true"
+            android:title="@string/pref_key_forcescreenon_battery_title"
+            android:summary="@string/pref_key_forcescreenon_battery_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <!-- ************************************** -->
+    <!-- The custom script to unlock the device -->
+    <!-- ************************************** -->
+
+    <PreferenceCategory
+        android:title="@string/pref_unlockscript_title"
+        android:key="pref_key_unlockscript">
+
+        <!-- Use or not a custom unlock script -->
+        <CheckBoxPreference
+            android:key="pref_key_settings_unlockscript"
+            android:checked="true"
+            android:title="@string/pref_key_unlockscript_title"
+            android:summary="@string/pref_key_unlockscript_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <!-- ************************************** -->
+    <!-- The settings about picture recognition -->
+    <!-- ************************************** -->
+
+    <PreferenceCategory
+        android:title="@string/pref_picture_recognition_title">
+
+        <!-- Define the ratio / threshold for the picture comparison system -->
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            xmlns:sample="http://schemas.android.com/apk/res-auto"
+            android:key="pref_key_picture_recognition_threshold"
+            android:title="@string/pref_settings_prthreshold_title"
+            android:summary="@string/pref_settings_prthreshold_summary"
+            android:enabled="true"
+            android:defaultValue="20"
+            sample:msbp_minValue="1"
+            sample:msbp_maxValue="100"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="%"
+            sample:msbp_dialogEnabled="false"/>
+
+        <!-- Define the frequency of the screen-capture process to take a new picture of the screen -->
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            xmlns:sample="http://schemas.android.com/apk/res-auto"
+            android:key="pref_key_picture_recognition_frequency"
+            android:title="@string/pref_settings_prfrequency_title"
+            android:summary="@string/pref_settings_prfrequency_summary"
+            android:enabled="true"
+            android:defaultValue="1"
+            sample:msbp_minValue="1"
+            sample:msbp_maxValue="10"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="s"
+            sample:msbp_dialogEnabled="false"/>
+
+    </PreferenceCategory>
+
+    <!-- **************************** -->
+    <!-- The files in use for the app -->
+    <!-- **************************** -->
+
+    <PreferenceCategory
+        android:title="@string/pref_app_files">
+
+        <PreferenceScreen
+            android:title="@string/pref_app_files_title"
+            android:summary="@string/pref_app_files_summary">
+
+            <!-- The name of the file containing the points to click on -->
+            <PreferenceCategory
+                android:title="@string/pref_app_files_points_title">
+                <EditTextPreference
+                    android:key="pref_key_points_file_name"
+                    android:title="@string/pref_app_files_points_name" />
+                <Preference
+                    android:key="pref_key_points_file_content"
+                    android:title="@string/pref_app_files_points_content" />
+            </PreferenceCategory>
+
+            <!-- The name of the file containing the configuration to apply -->
+            <PreferenceCategory
+                android:title="@string/pref_app_files_config_title">
+                <EditTextPreference
+                    android:key="pref_key_config_file_name"
+                    android:title="@string/pref_app_files_config_name" />
+                <Preference
+                    android:key="pref_key_config_file_content"
+                    android:title="@string/pref_app_files_config_content" />
+            </PreferenceCategory>
+
+            <!-- The name of the file containing the Shell commands to unlock the device -->
+            <PreferenceCategory
+                android:title="@string/pref_app_files_unlock_title">
+                <EditTextPreference
+                    android:key="pref_key_unlock_file_name"
+                    android:title="@string/pref_app_files_unlock_name" />
+                <Preference
+                    android:key="pref_key_unlock_file_content"
+                    android:title="@string/pref_app_files_unlock_content" />
+            </PreferenceCategory>
+
+            <!-- The name of the file containing the screen state to compare to screenshots to trigger the click process -->
+            <PreferenceCategory
+                android:title="@string/pref_app_files_trigger_title">
+                <EditTextPreference
+                    android:key="pref_key_trigger_file_name"
+                    android:title="@string/pref_app_files_trigger_name" />
+                <Preference
+                    android:key="pref_key_trigger_file_content"
+                    android:title="@string/pref_app_files_trigger_content" />
+            </PreferenceCategory>
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <!-- ********** -->
+    <!-- About root -->
+    <!-- ********** -->
+
+    <PreferenceCategory
+        android:title="@string/pref_root_title">
+
+        <PreferenceScreen
+            android:title="@string/pref_root_subtitle"
+            android:summary="@string/pref_root_summary">
+
+            <!-- Heimdall -->
+            <Preference
+                android:key="pref_key_root_heimdall"
+                android:title="@string/pref_key_root_heimdall_title"
+                android:summary="@string/pref_key_root_heimdall_summary"/>
+
+            <!-- Odin -->
+            <Preference
+                android:key="pref_key_root_odin"
+                android:title="@string/pref_key_root_odin_title"
+                android:summary="@string/pref_key_root_odin_summary"/>
+
+            <!-- Chainfire XDA -->
+            <Preference
+                android:key="pref_key_root_chainfire"
+                android:title="@string/pref_key_root_chainfire_title"
+                android:summary="@string/pref_key_root_chainfire_summary"/>
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <!-- ********************** -->
+    <!-- The licenses / credits -->
+    <!-- ********************** -->
+
+    <PreferenceCategory
+        android:title="@string/pref_credits_title"
+        android:key="pref_key_credits">
+
+        <Preference
+            android:key="pref_key_credit"
+            android:title="@string/pref_key_credit_title"
+            android:summary="@string/pref_key_credit_summary" />
+
+    </PreferenceCategory>
+
+    <!-- ***** -->
+    <!-- About -->
+    <!-- ***** -->
+
+    <PreferenceCategory
+        android:title="@string/pref_about_title"
+        android:key="pref_key_about">
+
+        <PreferenceScreen
+            android:title="@string/pref_about_subtitle"
+            android:summary="@string/pref_about_summary">
+
+            <Preference
+                android:key="pref_key_help"
+                android:title="@string/pref_key_help_title"
+                android:summary="@string/pref_key_help_summary"/>
+
+            <Preference
+                android:selectable="false"
+                android:key="pref_about_version_title"
+                android:title="@string/pref_about_version_title" />
+
+            <Preference
+                android:key="pref_key_app"
+                android:title="@string/pref_about_version_app_title"
+                android:summary="@string/pref_about_version_app_summary" />
+
+            <Preference
+                android:selectable="true"
+                android:key="pref_play_store_title"
+                android:title="@string/pref_play_store_title"
+                android:summary="@string/pref_play_store_summary"/>
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

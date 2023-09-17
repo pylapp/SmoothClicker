@@ -1,0 +1,13 @@
+{
+  "note"  : "Play with a calculator on a Samsung Galaxy A3",
+  "points": [
+    {"x" : "282", "y": "488", "desc": "Cookie de Cookie Clicker"},
+    {"x" : "282", "y": "488", "desc": "Cookie de Cookie Clicker"},
+    {"x" : "217", "y": "589", "desc": "Touche 8 Calculatrice"},
+    {"x" : "472", "y": "597", "desc": "Touche - Calculatrice"},
+    {"x" : "339", "y": "687", "desc": "Touche 6 Calculatrice"},
+    {"x" : "342", "y": "471", "desc": "Touche X Calculatrice"},
+    {"x" : "211", "y": "711", "desc": "Touche 5 Calculatrice"},
+    {"x" : "451", "y": "885", "desc": "Touche = Calculatrice"}
+  ]
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w320dp-v13/values-w320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.pavelsikun/material-seekbar-preference/2.3.0/res/values-w320dp-v13/values-w320dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            }
+        ]
+    }
+]

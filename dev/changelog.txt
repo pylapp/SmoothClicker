@@ -1,0 +1,445 @@
+###################################################
+Date: 02/03/2016 21h30
+What:
+    chore: Initialized the project
+                - light GUI
+                - Apache v2 licence
+                - Click with SU shell commands
+                - Configuration of the clicking process
+                - About field
+                - Logo
+###################################################
+Date: 03/03/2016 23h55
+What:
+    chore: Clean up
+###################################################
+Date: 15/03/2016
+What:
+    feat: Credits
+                - Added credits / licences in the GUI
+###################################################
+Date: 15/03/2016
+What:
+    chore: Credits
+                - Improve the cardviews
+    feat: Vibrations
+                - Now the device can vibrate on starts or on each click
+###################################################
+Date: 15/03/2016
+What:
+    chore: Credits
+                - Now the URL of third-party contents are clickable
+                - Refactored verbatims
+                - Added new entries
+    feat: Splash screen
+###################################################
+Date: 15/03/2016
+What:
+    feat: Clicks
+                - X and Y fields automatically filled
+    feat: Buttons
+                - The "add a point" button has been replaced by a "request SU grant" button
+                - The "stop" button has been modified
+    feat: SU
+                - A feature has been implemented to get SU grant without having to trigger a clicking process
+###################################################
+Date: 15/03/2016 19h10
+What:
+    chore: UI
+                - Changed colors
+                - Refactored the main UI
+                - Cleared focus
+                - Fixed verbatims
+    feat: Exit
+                - Implemented an exit feature which will prevent then splash screen to be displayed each time, etc.
+###################################################
+Date: 16/03/2016
+What:
+    feat: notifications
+                - Refactored notifications by vibrations
+                - The state of the app is notified by light and notifications
+    chore: GUI
+                - Updated the GUI
+    chore: Misc.
+                - Now the back button is for exit, press home to put the app in background / hide it
+                - Refactoring of some constants
+                - Fixed verbatims
+###################################################
+Date: 16/03/2016
+What:
+    feat: Endless repeat
+                - Endless repeat with warning in an alert dialog
+    feat: Notifications
+                - Start the activity if we click on the notifications (except "new click")
+    feat: French language support
+    doc: Javadoc
+                - Generate Javadoc as HTML
+###################################################
+Date: 17/03/2016
+What:
+    feat: GUI
+                - The SelectPointActivity does not have a title anymore
+                - The arc menu get smaller when clicking on the "select point" button
+                - Now the only way to select a point on the screen to click on is the dedicated activity
+###################################################
+Date: 17/03/2016
+What:
+    feat: GUI for select multipoint
+                - Updated GUI for the selection of several points
+###################################################
+Date: 17/03/2016
+What:
+    chore: Languages
+                - Fixed verbatims
+    fix: Bugs
+                - Fixed bug about null values in EditTexts
+                - Fixed bug making a force close when we start the process without defined clicks
+    feat: Translucent view
+    feat: Notifications
+                - The notifications display the coordinates of the click which has been made
+###################################################
+Date: 17/03/2016 17h15
+What:
+    feat: Settings
+    feat: Shake to clean
+    chore: Update verbatims
+    fix : New bugs tracking campaign
+###################################################
+Date: 18/03/2016
+What:
+    feat: Countdown on notifications for delayed starts
+    refactor: New settings screen with less fields
+    chore: Refactor changelog
+    chore: Refactor strings
+###################################################
+Date: 18/03/2016
+What:
+    feat: Klingon support
+###################################################
+Date: 18/03/2016
+What:
+    fix: Shake to clean cleans the endless repeat choice
+    feat: Service reachable by a third app which can make clicks
+    doc: Update the doc
+    chore: Clean sources
+###################################################
+Date: 21/03/2016
+What:
+    fix: Bug where two notifications for on-going process (by app and service) were displayed
+    fix: Mistake in version tag
+    doc: Update HTML JavaDoc
+###################################################
+Date: 21/03/2016
+What:
+    chore: Change the license: upgrade from Apache v2 to MIT License
+###################################################
+Date: 21/03/2016
+What:
+    test: More code for unit tests
+###################################################
+Date: 21/03/2016
+What:
+    test: More code for instrumented tests
+###################################################
+Date: 22/03/2016
+What:
+    chore: refactor tests packages
+    test: more code for instrumented tests
+    fix: bug in new click verbatim
+    fix: bug where it was impossible to stop the process if the countdown was ongoing
+    fix: bug because of missing breaks in StatusBarNotifier
+    refactor: resource string values
+    doc: update doc
+    fix: more control on the service and the AT clicker about inputs (negative values in params, etc).
+    fix: more control on the broadcast receiver
+###################################################
+Date: 23/03/2016
+What:
+    test: more instrumented tests
+    doc: update doc (inner Javadoc and HTML Javadoc)
+    fix: more bug fixes
+    fix: display snackbar when clicking on the stop button without having started the process
+    fix: bug where it was possible to start the process with no point selected on the selection screen
+    fix: mistake in credits
+    fix: handle back when splash screen occurs
+###################################################
+Date: 24/03/2016
+What:
+    fix: bug where the toast about missing root was displayed only in english
+###################################################
+Date: 24/03/2016
+What:
+    refactor: packages
+###################################################
+Date: 24/03/2016
+What:
+    feat: add sharedUserId for the application so as to make other apps share data and processes if needed
+            (http://java-hamster.blogspot.fr/2010/05/androids-shareduserid.html, issue #1227, #3763 for Android)
+###################################################
+Date: 11/04/2016
+What:
+    feat: new switch button with a good text content
+    feat: add new entry in the credits view
+    fix: mistakes in Klingon texts
+###################################################
+Date: 11/04/2016
+What:
+    feat: add feature to restore all the configuration in default values
+    feat: add new entries in the credits view
+    fix: bug with switch button
+    chore: add button for the feature "delete points"
+    chore: new icons for cleaning features
+    doc: update the HTML JavaDoc
+    test: add new tests for the "clean all" feature
+###################################################
+Date: 12/04/2016
+What:
+    feat: add feature to clean all the selected points
+    doc: update the doc
+###################################################
+Date: 13/04/2016
+What:
+    feat: an helping toast is displayed periodically on the clicking screen when the user is inactive
+    doc: update the doc
+###################################################
+Date: 13/04/2016
+What:
+    feat: the toasts showing the action defined by the user is replaced by a snackbar
+    test: new tests for the snackbar about new action
+    doc: update the doc
+###################################################
+Date: 13/04/2016
+What:
+    feat: undo the new point creation thanks to a dismiss button in the notification snackbar
+    doc: update the doc
+###################################################
+Date: 13/04/2016
+What:
+    chore: new run of Lint and more, more and moooore clean and optimization of sources
+    doc: update the doc
+###################################################
+Date: 13/04/2016
+What:
+    feat: intro screen with view pager
+    doc: update the doc
+    test: new tests
+    chore: clean up
+    chore: update the credits
+###################################################
+Date: 14/04/2016
+What:
+    feat: support for spanish
+    doc: update the docs
+    test: new run
+    chore: clean up
+    chore: update the credits view
+    chore: new screen shot
+    fix: fix bug with the ShakeToClean checkbox in the settings which where not checked but the feature activated
+###################################################
+Date: 14/04/2016
+What:
+    chore: new run of Lint and sources analysis
+    doc: update the HTML JavaDoc
+    test: new run of unit and instrumented tests
+    chore: new screen shots
+    chore: clean up
+###################################################
+Date: 09/05/2016
+What:
+    chore: more code on JSON points file management
+    chore: new rnu of UT, IT, Lint and JavaDoc HTML build
+###################################################
+Date: 09/05/2016
+What:
+    feat: support for russian (-ru), portuguese (-pt), german (-de) and korean (-ko)
+###################################################
+Date: 09/05/2016
+What:
+    feat: add new entry in the settings screen to make the user go on the Play Store's app's page
+###################################################
+Date: 10/05/2016
+What:
+    chore: more work on execution of a huge sequence of clicks within a JSON file with a remote-triggerable invisible activity
+            (in case of need, not an important feature)
+###################################################
+Date: 13/05/2016
+What:
+    fix: OutOfMemory error on boot because of HTextView
+    fix: bug in display of points with a strange default (O,O) point
+    chore: new run of Lint
+    fix: replace '...' by '#8230'
+###################################################
+Date: 17/05/2016
+What:
+    fix: bug with the main activity with a NullPointerException on the SwitchButton
+    feat: i18n of the app for Romanian, Finnish and Polish texts
+    refactor: refactor IT to deal with softkeyboards / back button
+    refactor: refactor IT to deal with variations between Android versions (e.g. get notifications from package name gap between 4.4 and 5.1)
+    chore: new run of IT (UI Automator and Espresso), and UT (JUnit)
+    chore: new run of Lint
+###################################################
+Date: 17/05/2016
+What:
+    fix: bug with the color of the icon bar for 5.0+ OS
+    chore: new run of IT and UT on a physical device
+###################################################
+Date: 18/05/2016
+What:
+    feat: support for landscape mode for handsets
+    fix: fixed a bug risen by a ClassCastException on the switch button
+    chore: update the version code, the version name and the version tag
+###################################################
+Date: 18/05/2016
+What:
+    refactor: refactor the pool of Instrumented and Unit Tests
+###################################################
+Date: 18/05/2016
+What:
+    fix: remove the entry on HTextView from the Credits View (and updates the strings)
+###################################################
+Date: 18/05/2016
+What:
+    fix: centered the image and the title of the splash screen
+###################################################
+Date: 18/05/2016
+What:
+    fix: change the size of the font of the texts displayed in splash screen and intro screens
+###################################################
+Date: 19/05/2016
+What:
+    feat: more support for 5", 6", 7" and 10" devices (handsets and tablets) both in landscape and portrait modes
+    fix: change the text style of widgets in the main activity to make it more material and to apply the Google's guidelines
+    fix: font size of texts in intro screens for handsets and tablets in portrait and landscape modes
+    fix: retrieve defined data when orientation changes
+    fix: good font size for text in splash screen for handsets and tablets in portrait or landscape mode
+    fix: redesign the credits view to follow Google's material guidelines and have a better UI on tablets in portrait and landscape modes
+    fix: change the appearance of the selected point's spinner (dialog and no more drop down list)
+    chore: new run of Lint, new run of IT (Espresso and UIAutomator), new run of UT (JUnit)
+    fix: missing file in IT folder
+###################################################
+Date: 20/05/2016
+What:
+    chore: UK English screen captures of v1.10.0 on a Nexus 5 via https://developer.android.com/distribute/tools/promote/device-art.html
+    feat: support for italian and catalan
+    chore: new run of Lint, Unit Tests with JUnit, Instrumented Tests with Espresso and UI Automator
+###################################################
+Date: 20/05/2016
+What:
+    feat: add standalone mode with a remote-startable invisible activity which will take points and config JSON files before starting the click process
+    refactor: pool of UT
+    test: add new UT
+###################################################
+Date: 15/06/2016
+What:
+    feat: import and export of configuration (click process and points to click on) from/to JSON files in a dedicated app's folder
+###################################################
+Date: 15/06/2016
+What:
+    feat: prevent the screen to be off, and force it to be on if off
+    test: add instrumented tests and unit tests for feature about the screen
+    feat: unlock script
+    feat: references to web pages about how to root devices
+    chore: clean up logs
+    chore: update verbatims
+    chore: update the credits view
+    doc: new build of HTML JavaDoc
+    chore: closed tasks #67, #68, #74, #81, #70, #71
+###################################################
+Date: 16/06/2016
+What:
+    feat: standalone mode with only config and points files
+    feat: standalone mode with config and points file and screen recognition
+    feat: possible to choose the time unit in use (ms, s or h)
+    feat: intro screen can be called as an help from the settings screen
+    fix: fixed bug with broken json files during import
+    test: new UT and IT for standalone modes
+    doc: new build of HTML JavaDoc
+    chore: new run of Lint and code analysis
+    chore: closed tasks #75, #76, #73, #72
+###################################################
+Date: 17/06/2016
+What:
+    feat: new UI for main view
+    feat: update credits view
+    doc: new build of HTML JavaDoc
+    chore: new run of Lint, code analysis, UT and IT
+    chore: closed tasks #69
+###################################################
+Date: 18/06/2016
+What:
+    feat: deal with the new permissions system provided by Android 6 and API 23+
+    feat: frequency of screen captures
+    fix: bug with unit time in the config file
+    fix: bug where notifications removed when finishing main activity in standalone mode
+    fix: bug where splash screen displayed even if standalone mode running
+    chore: closed tasks #57, #83
+###################################################
+Date: 22/06/2016
+What:
+    feat: new preferences screen
+    feat: ring during each click
+    test: new IT for StandaloneDialog
+    chore: closed tasks #83, #80, #51, #84
+    chore: update and optimized the credits view
+    chore: more logs on UT and IT
+    refactor: refactor the intro screen's pages to get its string values and put them in arrays
+###################################################
+Date: 30/06/2016
+What:
+    feat: possible to define the names of the files to sue
+    feat: improved GUI with kind of labels to give focus to items
+    feat: random point when long click on the select multipoint screen
+    fix: JSON export files format / indentations
+    refactor: the main view
+    chore: closed tasks #86, #87, #89
+###################################################
+Date: 01/07/2016
+What:
+    feat: time MS for unit time
+    doc: update HTML JavaDOC
+    chore: new run of Lint, code analysis, unit tests and instrumented tests
+###################################################
+Date: 04/07/2016
+What:
+    chore: change the vibration duration (150ms and not 300ms)
+    fix: now the notifications are made only if the click is done (changed the command line by adding to it a result token)
+    fix: filters the string value in preferences about files' names (minimum length)
+    chore: closed task #90
+    chore: new run of IT, UT and code analysis
+    doc: new build of HTML JavaDoc
+###################################################
+Date: 05/07/2016
+What:
+    feat: more i18n
+    doc: generate HTML JavaDoc
+    chore: new run of unit tests with JUnit, instrumented tests with UIAutoataor and Espresso, code analysis and Lint
+    chore: closed task #79
+###################################################
+Date: 07/07/2016
+What:
+    chore: deal with several screens configurations: Nexus S, Galaxy A3, Nexus 5, Nexus 6, Nexus 6, Nexus 7, Nexus 10, OnePlus One
+    chore: refactor string and array resources (mistakes with i18n about punctuation, smileys, licences, name of the app, Google Play and other trade marks ...)
+    chore: new run of IT, UT, code analysis, Lint
+    chore: closed tasks #78, #91, #60
+    doc: new generation of HTML JavaDoc
+###################################################
+Date: 26/07/2016
+What:
+    feat: now when the users starts the click process in manual mode by clicking no the "start" floating button, the arc menu will close itself
+    fix: improve the sleep management system and the frequency of the clicks if the unit time is ms
+    fix: bug where several radio buttons may be selected as the same time if the devices has been rotated
+    chore; add missing Korean verbatims
+    chore: clean up sources and assets
+    chore: close tasks #94, #95, #96
+    chore: new run of instrumented tests and unit tests
+    chore: new run of Lint and code analysis
+    doc: new generation of HTML JavaDoc
+###################################################
+Date: 25/10/2016
+What:
+    fix: not well translated languages which have been deleted (keep only ru, en, fr and it)
+    chore: update credits view
+    chore: closed tasks #111 and #116
+    chore: new run of instrumented tests and unit tests
+    chore: new run of Lint and code analysis
+###################################################

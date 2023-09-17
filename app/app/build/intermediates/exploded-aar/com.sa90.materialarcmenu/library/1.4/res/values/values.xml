@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcMenu"><attr format="reference" name="menu_scr"/><attr format="reference|color" name="menu_color"/><attr format="color" name="menu_ripple_color"/><attr format="dimension" name="menu_radius"/><attr format="enum" name="menu_open"><enum name="arc_left" value="0"/><enum name="arc_right" value="1"/></attr><attr format="integer" name="menu_animation_time"/><attr format="dimension" name="menu_elevation"/></declare-styleable>
+    <dimen name="default_elevation">6dp</dimen>
+    <dimen name="default_radius">150dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="app_name">MaterialArcMenu</string>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pylapp.smoothclicker.android"
+    android:sharedUserId="@string/app_sharedUserId"
+    android:sharedUserLabel="@string/app_sharedUserLabel"
+    android:versionCode="33"
+    android:versionName="2.1.3 - Juicy Jellyfish" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <!-- *********** -->
+    <!-- Permissions -->
+    <!-- *********** -->
+
+
+    <!-- To be SU -->
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+
+    <!--
+     These permissions are NORMAL permissions, so no need to ask grant for them
+     See: https://developer.android.com/guide/topics/security/permissions.html#normal-dangerous
+     See: https://developer.android.com/guide/topics/security/normal-permissions.html
+    -->
+    <!-- To make the device vibrate (here on each click or on start if needed) -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- To use wake locks to force the screen to be always on -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- &lt;!&ndash; To start the service when the boot of the device is done &ndash;&gt; -->
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+
+
+    <!--
+     These permissions are DANGEROUS permissions, so we need to ask grant for them
+     See: https://developer.android.com/guide/topics/security/permissions.html#normal-dangerous
+    -->
+    <!-- To put the JSON files to the external storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- To get the JSON files from the external storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- ********************* -->
+    <!-- The SmoothClicker app -->
+    <!-- ********************* -->
+    <application
+        android:name="pylapp.smoothclicker.android.SmoothClickerApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_512"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- ********** -->
+        <!-- Activities -->
+        <!-- ********** -->
+
+
+        <!-- The splash screen -->
+        <activity
+            android:name="pylapp.smoothclicker.android.views.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- The intro screen -->
+        <activity
+            android:name="pylapp.smoothclicker.android.views.IntroScreensActivity"
+            android:label="@string/app_intro"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <!-- The main activity of the app -->
+        <activity
+            android:name="pylapp.smoothclicker.android.views.ClickerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <!-- The credits activity displaying the licenses etc. -->
+        <activity
+            android:name="pylapp.smoothclicker.android.views.CreditsActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <!-- A translucent activity to help the user to select several points on its screen -->
+        <activity
+            android:name="pylapp.smoothclicker.android.views.SelectMultiPointsActivity"
+            android:theme="@style/Theme.Transparent" />
+
+        <!-- The settings activity -->
+        <activity android:name="pylapp.smoothclicker.android.views.SettingsActivity" />
+
+        <!-- An activity to use with a remote tool / system / object to trigger the clicks -->
+        <activity
+            android:name="pylapp.smoothclicker.android.views.StandaloneActivity"
+            android:exported="true"
+            android:label="@string/app_name_standalone"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+
+        <!-- ******** -->
+        <!-- Services -->
+        <!-- ******** -->
+
+        <service
+            android:name="pylapp.smoothclicker.android.clickers.ServiceClicker"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/service_label_serviceclicker" >
+            <intent-filter>
+                <action android:name="pylapp.smoothclicker.android.clickers.ServiceClicker.START" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="pylapp.smoothclicker.android.clickers.ServiceClicker.STOP" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="pylapp.smoothclicker.android.clickers.ServiceClicker.WAKEUP" />
+            </intent-filter>
+        </service>
+
+        <!-- ********* -->
+        <!-- Receivers -->
+        <!-- ********* -->
+
+
+        <!-- A receiver which can make clicks -->
+        <receiver android:name="pylapp.smoothclicker.android.receivers.BRClicker" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_BATTERY_LOW" />
+            </intent-filter>
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_BATTERY_OKAY"/>
+            </intent-filter>
+            -->
+        </receiver>
+
+        <!-- &lt;!&ndash; A receiver which can start the click process when the device has its boot completed &ndash;&gt; -->
+        <!-- <receiver -->
+        <!-- android:name=".receivers.BRBootCompleted" -->
+        <!-- android:enabled="false"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Transparent" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="color_bottom_line_disabled" type="color">#EEEEEE</item>
+    <item name="color_bottom_line_enabled" type="color">#BDBDBD</item>
+    <item name="color_dialog" type="color">#607D8B</item>
+    <declare-styleable name="SeekBarPreference"><attr format="reference|integer" name="msbp_minValue"/><attr format="reference|integer" name="msbp_maxValue"/><attr format="reference|integer" name="msbp_interval"/><attr format="reference|string" name="msbp_measurementUnit"/><attr format="reference|boolean" name="msbp_dialogEnabled"/><attr format="reference|string" name="msbp_view_title"/><attr format="reference|string" name="msbp_view_summary"/><attr format="reference|integer" name="msbp_view_defaultValue"/><attr format="reference|boolean" name="msbp_view_enabled"/></declare-styleable>
+    <dimen name="msbp_seekbar_width">160dp</dimen>
+    <string name="apply">apply</string>
+    <string name="enter_custom_value">Enter custom value</string>
+    <string name="errors.and">And</string>
+    <string name="errors.must_be_between">Must be between</string>
+    <style name="MSB_Dialog_Default" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/color_dialog</item>
+        <item name="colorAccent">@color/color_dialog</item>
+    </style>
+</resources>

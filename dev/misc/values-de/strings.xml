@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+
+<resources>
+    <string name="app_name">Smooth Clicker</string>
+    <string name="app_sharedUserId">pylapp.smoothclicker.android.sharedUserId</string>
+    <string name="app_author">https://twitter.com/pylapp</string>
+    <string name="app_sharedUserLabel">ID to access to the Smooth Clicker\'s world</string>
+    <string name="service_label_serviceclicker">Service Clicker of Smooth Clicker</string>
+	<string name="app_name_standalone">Smooth Clicker (Standalone)</string>
+	<string name="standalone_init_config">Config-Werte werden abgeholt&#8230;</string>
+	<string name="standalone_init_points">Punkte zum Anklicken werden abgeholt&#8230;</string>
+	<string name="standalone_start_click_process">Die Standalone-Modus wird gestartet&#8230;</string>
+	<string name="standalone_bad_action">Woops&#8230;, Sie haben eine gute Wirkung nicht verwendet, um diese Aktivität auslösen!</string>
+	<string name="action_exit">Ausfahrt</string>
+	<string name="action_settings">Einstellungen</string>
+	<string name="action_clean_points">Die ausgewählten Punkte löschen</string>
+	<string name="action_clean_all">Zurücksetzen Sie die Werte und löschen Sie die ausgewählten Punkte</string>
+	<string name="action_export">In JSON-Datei exportieren</string>
+	<string name="action_import">Von JSON-Datei importieren</string>
+	<string name="action_configuration">Konfiguration</string>
+	<string name="action_standalone">Standalone-Modus</string>
+	<string name="info_message_start">Speichern Sie die Konfiguration und die Procesus beginnt</string>
+	<string name="info_message_stop">Beenden Sie alle Prozess</string>
+	<string name="info_message_request_su">Fragen Sie nach der SU-Zuschuss</string>
+	<string name="info_message_su_granted">Die SU-Genehmigung wurde erteilt :-)</string>
+	<string name="info_message_new_point">Wählen Sie neue Punkte auf dem Bildschirm</string>
+	<string name="info_message_invite_new_points">Klicken Sie auf dem Bildschirm wählen den Punkt, dann zurück</string>
+	<string name="info_message_invite_new_random_points">Lange auf den Bildschirm, wählen einen beliebigen Punkt klicken Sie, dann wieder</string>
+	<string name="info_export_success">Export erzielt worden</string>
+	<string name="info_export_fail">Fehler beim Exportieren</string>
+	<string name="info_import_success">Import erzielt worden</string>
+	<string name="info_import_fail">Import ist fehlgeschlagen</string>
+	<string name="info_standalone_activated">Die Standalone-Modus wird gestartet</string>
+	<string name="info_standalone_disactivated">Die Standalone-Modus wird beendet</string>
+	<string name="error_message_su_not_granted">Die SU-Berechtigung wurde nicht erteilt (X-</string>
+	<string name="error_su_missing">Root Sie Ihr Android, bevor Sie mit dieser app? Es ist zwingend erforderlich.</string>
+	<string name="error_message_no_click_defined">¯\\_ (ツ) _ / ¯ definiert keine Klicks</string>
+	<string name="error_message_was_not_working">(－‸ლ) Der Prozess wird nicht gestartet</string>
+	<string name="error_nothing_to_open_json">Woops kann nichts die JSON-Datei öffnen</string>
+	<string name="error_nothing_to_open_file">Woops kann nichts diese Datei öffnen</string>
+	<string name="warning_hazard_repeat_endless_title">Gefährlichen Betrieb</string>
+	<string name="warning_hazard_repeat_endless_content">Sind Sie sicher, dass eine endlose Wiederholung? Dieser Vorgang möglicherweise gefährlich für Ihr Gerät.</string>
+	<string name="warning_hazard_repeat_endless_no">Nö!</string>
+	<string name="warning_hazard_repeat_endless_yes">Feur Frei!</string>
+	<string name="widget_no_points">Keine ausgewählten Punkt noch</string>
+	<string name="widget_type_of_start">Start</string>
+	<string name="widget_unit_time">Zeit</string>
+	<string name="widget_unit_time_ms">Millisekunde</string>
+	<string name="widget_unit_time_s">Sekunde</string>
+	<string name="widget_unit_time_m">Minute</string>
+	<string name="widget_unit_time_h">Stunde</string>
+	<string name="widget_delay">Verzögerung</string>
+	<string name="widget_speed">Vor jedem Klick</string>
+	<string name="widget_repeat">Wiederholen Sie die</string>
+	<string name="widget_repeat_hint">&#8230; Mal</string>
+	<string name="widget_repeat_endless">Endlose Wiederholung</string>
+	<string name="widget_vibrate_on_start">Vibrieren auf der Startseite</string>
+	<string name="widget_vibrate_on_click">Klicken Sie auf vibrieren</string>
+	<string name="widget_delayed_starts">Verzögert</string>
+	<string name="widget_immediate_starts">Jetzt</string>
+	<string name="widget_xy_coordinates">Punkte zum Anklicken</string>
+	<string name="widget_notifications">Benachrichtigungen</string>
+	<string name="widget_standalone_dialog_title">Standalone-Modus</string>
+	<string name="widget_sounds">Klingeln bei jedem Klick</string>
+	<string name="splashscreen_description">Smooth Clicker</string>
+	<string name="notif_content_title">Smooth Clicker</string>
+	<string name="notif_content_text_click_made">Klicken Sie auf neu </string>
+	<string name="notif_content_text_clicks_on_going_app">Der Klick-Prozess läuft (über die app)&#8230; </string>
+	<string name="notif_content_text_clicks_on_going_service">Der Klick-Prozess läuft (über den Dienst)&#8230; </string>
+	<string name="notif_content_text_clicks_on_going_standalone">Der Klick-Prozess läuft (Standalone)&#8230;</string>
+	<string name="notif_content_text_clicks_stop">Klicken Sie auf Prozess wurde beendet</string>
+	<string name="notif_content_text_clicks_over">Der Klick ist abgeschlossen</string>
+	<string name="notif_content_text_su_granted">Die Superuser-Genehmigung wurde erteilt</string>
+	<string name="notif_content_text_countdown">Starten Sie in:</string>
+	<string name="notif_content_text_watch_over">Der Überwachungsprozess ist vorbei</string>
+	<string name="pref_settings_title">Main</string>
+	<string name="pref_settings_shaketoclean_title">Rütteln, um zu reinigen</string>
+	<string name="pref_settings_shaketoclean_summary">Schütteln Sie Ihr Gerät um die Konfiguration leer machen</string>
+	<string name="pref_picture_recognition_title">Bildschirm-Anerkennung</string>
+	<string name="pref_settings_prthreshold_title">Schwelle</string>
+	<string name="pref_settings_prthreshold_summary">Mehr die Schwelle ist, die mehr akzeptiert sind die Unterschiede zwischen dem Trigger-Bild und die letzten Screenshot gemacht</string>
+	<string name="pref_settings_prfrequency_title">Zeit für die Aufnahme</string>
+	<string name="pref_settings_prfrequency_summary">Desto höher ist die Zeit für die Erfassung, desto langsamer wird das System zu Screenshots des Geräts, um den Klick-Prozess auslösen</string>
+	<string name="pref_app_files">Lagerung</string>
+	<string name="pref_app_files_title">Dateien, die von der app verwendet</string>
+	<string name="pref_app_files_summary">Klicken Sie zum Verwalten von Dateien im Einsatz</string>
+	<string name="pref_app_files_points_title">Punkte</string>
+	<string name="pref_app_files_points_name">Datei mit den Punkten</string>
+	<string name="pref_app_files_points_content">Lesen Sie</string>
+	<string name="pref_app_files_config_title">Konfiguration</string>
+	<string name="pref_app_files_config_name">Datei mit der Konfiguration</string>
+	<string name="pref_app_files_config_content">Lesen Sie</string>
+	<string name="pref_app_files_unlock_title">Skript zu entsperren</string>
+	<string name="pref_app_files_unlock_name">Datei mit dem Freischalt-Skript</string>
+	<string name="pref_app_files_unlock_content">Lesen Sie</string>
+	<string name="pref_app_files_trigger_title">Trigger-Bild</string>
+	<string name="pref_app_files_trigger_name">Bilddatei, die der Klick-Prozess beginnt</string>
+	<string name="pref_app_files_trigger_content">Lesen Sie</string>
+	<string name="pref_credits_title">Kredite</string>
+	<string name="pref_key_credit_title">Diese app nutzt Inhalte Dritter</string>
+	<string name="pref_key_credit_summary">Klicken Sie hier, um die Lizenzen zu zeigen</string>
+	<string name="pref_about_title">Über</string>
+	<string name="pref_about_subtitle">Smooth Clicker</string>
+	<string name="pref_about_summary">Klicken Sie, um mehr zu bekommen</string>
+	<string name="pref_about_version_title">Version</string>
+	<string name="pref_about_version_app_title">Smooth Clicker</string>
+	<string name="pref_about_version_app_summary">geschrieben von pylapp - Lizenz MIT</string>
+	<string name="pref_play_store_title">&#9733; Google Play &#9733;</string>
+	<string name="pref_play_store_summary">Zögern Sie nicht, zu bewerten und kommentieren die app</string>
+	<string name="pref_wakescreenbattery_title">Wach und Batterie</string>
+	<string name="pref_key_wakelock_title">Wakelock</string>
+	<string name="pref_key_wakelock_summary">Verwenden Sie Wakelock beschreibungen, um das Gerät immer auf Bildschirm machen (können eine Menge die Batterie reduziert werden)</string>
+	<string name="pref_key_forcescreenon_battery_title">Kraft-Bildschirm auf</string>
+	<string name="pref_key_forcescreenon_battery_summary">Wenn der Bildschirm ausgeschaltet ist, schalten Sie ihn ein, wenn das Gerät seine Batterie und nicht das Netzteil verwendet</string>
+	<string name="pref_unlockscript_title">Entsperren</string>
+	<string name="pref_key_unlockscript_title">ADB-Skript</string>
+	<string name="pref_key_unlockscript_summary">Verwenden Sie ein dedizierte benutzerdefiniertes Skript System Befehle zum Entsperren des Geräts</string>
+	<string name="pref_root_title">Wurzel</string>
+	<string name="pref_root_subtitle">Wie mein Gerät root?</string>
+	<string name="pref_root_summary">Klicken Sie, um mehr zu bekommen</string>
+	<string name="pref_key_root_heimdall_title">Heimdall</string>
+	<string name="pref_key_root_heimdall_summary">Gehen Sie zu Heimdall, Ihr Gerät mit Linux root</string>
+	<string name="pref_key_root_odin_title">Odin</string>
+	<string name="pref_key_root_odin_summary">Gehen Sie zu Odin, Ihr Gerät mit Windows root</string>
+	<string name="pref_key_root_chainfire_title">Chainfire XDA</string>
+	<string name="pref_key_root_chainfire_summary">Gehen Sie auf Chainfire zu mehr wissen über Root-Prozess</string>
+	<string name="pref_heimdall_url">https://Doc.Ubuntu-Fr.org/Heimdall</string>
+	<string name="pref_odin_url">http://odindownload.com/</string>
+	<string name="pref_chainfire_url">https://www.Chainfire.EU/</string>
+	<string name="pref_key_help_title">Hilfe</string>
+	<string name="pref_key_help_summary">Das Lernprogramm starten</string>
+	<string name="snackbar_action_dismiss">"Rückgängig"</string>
+	<string name="permission_write_external_storage_title">EXTERNE Speicher schreiben Berechtigung</string>
+	<string name="permission_write_external_storage_summary">Die app benötigt diese Berechtigung Konfigurations-Dateien in einen speziellen Ordner zu schreiben</string>
+	<string name="permission_read_external_storage_title">EXTERNE Speicher lesen Berechtigung</string>
+	<string name="permission_read_external_storage_summary">Die app benötigt diese Berechtigung Konfigurations-Dateien in einen speziellen Ordner zu lesen</string>
+	<string name="error_not_implemented">Noch implementiert nicht!</string>
+	<string name="message_reinit_config">Aufräumen&#8230; </string>
+	<string name="message_confirm_exit_label">Ausfahrt</string>
+	<string name="message_confirm_exit_content">Möchten Sie die app beenden?</string>
+	<string name="app_intro">Willkommen bei Clicker glatt</string>
+	<string name="snackbar_see_config_file">Lesen Sie</string>
+	<string name="dialog_negative_button">Abbrechen</string>
+	<string name="dialog_positive_button">Okay</string>
+</resources>

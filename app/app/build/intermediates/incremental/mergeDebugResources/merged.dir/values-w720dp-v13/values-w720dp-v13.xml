@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
+    <dimen name="msbp_seekbar_width">640dp</dimen>
+</resources>

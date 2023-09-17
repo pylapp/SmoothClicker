@@ -1,0 +1,13 @@
+{
+  "note"            : "A sample of a config file",
+  "unitTime"        : "s",
+  "delayedStart"    : "true",
+  "delay"           : "10",
+  "timeGap"         : "3",
+  "repeat"          : "10",
+  "endlessRepeat"   : "false",
+  "vibrateOnStart"  : "false",
+  "vibrateOnClick"  : "true",
+  "ring"            : "false",
+  "notifications"   : "true"
+}

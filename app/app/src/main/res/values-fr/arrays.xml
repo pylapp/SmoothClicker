@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+
+<resources>
+
+    <!-- ******************** -->
+    <!-- The standalone modes -->
+    <!-- ******************** -->
+
+    <string-array name="standalone_mode_titles">
+        <item>Fichiers JSON</item>
+        <item>Fichiers JSON et démarrage selon l\'écran</item>
+    </string-array>
+
+    <string-array name="standalone_mode_descriptions">
+        <item>Utiliser les deux fichiers JSON pour configurer le processus de click</item>
+        <item>Utiliser les deux fichiers JSON et le fichier image pour configurer et déclencher le processus de click</item>
+    </string-array>
+
+    <!-- ********************** -->
+    <!-- The intro screen pages -->
+    <!-- ********************** -->
+
+    <string-array name="introscreen_titles">
+        <item>Hey !</item>
+        <item>Root</item>
+        <item>Clicks</item>
+        <item>Notifications</item>
+        <item>Configuration</item>
+        <item>Standalone</item>
+        <item>Reconnaissance d\'écran</item>
+        <item>Né pour être libre</item>
+    </string-array>
+
+    <string-array name="introscreen_summaries">
+        <item>Bienvenue dans Smooth Clicker !</item>
+        <item>Votre appareil Android doit être rooté pour utiliser cette app.</item>
+        <item>Définissez une séquence de clicks à exécuter&#8230;</item>
+        <item>&#8230; et ajoutez au besoin des notifications, des vibrations etc.</item>
+        <item>Des fichiers JSON peuvent être utilisés pour stocker la configuration du processsus de click.</item>
+        <item>Le mode standalone permet de lancer le processus de clicks en utilisant directement les fichiers de configuration JSON.</item>
+        <item>Le mode standalone peut également se baser sur une image de référence pour déclencher les clicks.</item>
+        <item>Smooth Clicker est libre et open-source !</item>
+    </string-array>
+
+    <!-- *********** -->
+    <!-- The credits -->
+    <!-- *********** -->
+
+    <string-array name="credits_labels">
+        <item>Smooth Clicker</item>
+        <item>Logo de l\'application</item>
+        <item>Material Arc Menu</item>
+        <item>SwitchButton</item>
+        <item>AppIntro</item>
+        <item>Swipe Selector</item>
+        <item>Material SeekBar Preference</item>
+        <item>Dexter</item>
+        <item>Icônes</item>
+        <item>Icônes</item>
+        <item>Icônes</item>
+        <item>Icônes</item>
+        <item>Icônes</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>App créée par pylapp</item>
+        <item>Icône créée par Freepik de www.flaticon.com</item>
+        <item>Librairie créée par Saurabh Arora</item>
+        <item>Librairie créée par kyleduo</item>
+        <item>Librairie créée par Paolo Rotolo</item>
+        <item>Librairie créée par Iiro Krankka</item>
+        <item>Librairie créée par Pavel Sikun</item>
+        <item>Librairie créée par Karumi</item>
+        <item>Icônes faites par Freepik de www.flaticon.com</item>
+        <item>Icônes faites par Elegant Themes de www.flaticon.com</item>
+        <item>Icônes faites par Yannick de www.flaticon.com</item>
+        <item>Icônes faites par Vaadin de www.flaticon.com</item>
+        <item>Icônes faîtes par Madebyoliver de www.flaticon.com</item>
+    </string-array>
+
+    <string-array name="credits_urls">
+        <item>https://github.com/pylapp/SmoothClicker</item>
+        <item>http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726</item>
+        <item>https://github.com/saurabharora90/MaterialArcMenu</item>
+        <item>https://github.com/kyleduo/SwitchButton</item>
+        <item>https://github.com/PaoloRotolo/AppIntro</item>
+        <item>https://github.com/roughike/SwipeSelector</item>
+        <item>https://github.com/MrBIMC/MaterialSeekBarPreference</item>
+        <item>https://github.com/Karumi/Dexter</item>
+        <item>http://www.flaticon.com/authors/freepik</item>
+        <item>http://www.flaticon.com/authors/elegant-themes</item>
+        <item>http://www.flaticon.com/authors/yannick</item>
+        <item>http://www.flaticon.com/authors/vaadin</item>
+        <item>http://www.flaticon.com/authors/madebyoliver</item>
+    </string-array>
+
+    <string-array name="credits_licenses">
+        <item>Sous Licence MIT</item>
+        <item>Sous Licence Flaticon Basic</item>
+        <item>Sous Licence Apache v2</item>
+        <item>Sous License Apache v2</item>
+        <item>Sous License Apache v2</item>
+        <item>Sous License Apache v2</item>
+        <item>Sous License Apache v2</item>
+        <item>Sous License Apache v2</item>
+        <item>Sous License Flaticon Basic</item>
+        <item>Sous License CC 3.0 BY</item>
+        <item>Sous License CC 3.0 BY</item>
+        <item>Sous License CC 3.0 BY</item>
+        <item>Sous License Flaticon Basic</item>
+    </string-array>
+
+    <string-array name="thanks_labels">
+        <item>Traduction</item>
+        <item>Traduction</item>
+    </string-array>
+
+    <string-array name="thanks_flags">
+        <item>RU</item>
+        <item>IT</item>
+    </string-array>
+
+    <string-array name="thanks_whos">
+        <item>Артем Дементьев</item>
+        <item>fuomag9</item>
+    </string-array>
+
+</resources>

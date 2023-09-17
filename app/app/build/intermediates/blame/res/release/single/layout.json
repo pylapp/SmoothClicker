@@ -1,0 +1,346 @@
+[
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_media_action.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/preference_widget_checkbox.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/res/layout/preference_widget_checkbox.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_navigation_menu_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/preference_list_fragment.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/res/layout/preference_list_fragment.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/swipeselector_circle_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.roughike/swipe-selector/1.0.6/res/layout/swipeselector_circle_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_points.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_points.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/activity_ninja.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/activity_ninja.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/activity_credits.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/activity_credits.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_notifications.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_notifications.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_thanks_row.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_thanks_row.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_delay.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_delay.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/seekbar_view_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.pavelsikun/material-seekbar-preference/2.3.0/res/layout/seekbar_view_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/preference_category.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/res/layout/preference_category.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_time_gap.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_time_gap.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_cards_multipoints.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_cards_multipoints.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/swipeselector_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.roughike/swipe-selector/1.0.6/res/layout/swipeselector_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/activity_clicker.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/activity_clicker.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_layout_tab_icon.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/progress_indicator.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.4.0/res/layout/progress_indicator.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/list_points_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/list_points_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/swipeselector_content_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.roughike/swipe-selector/1.0.6/res/layout/swipeselector_content_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/value_selector_dialog.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.pavelsikun/material-seekbar-preference/2.3.0/res/layout/value_selector_dialog.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/fragment_intro.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.4.0/res/layout/fragment_intro.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_repeat.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_repeat.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_start_type.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_start_type.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_vibrate_on_start.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_vibrate_on_start.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_sounds.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_sounds.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/preference_widget_switch_compat.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/res/layout/preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/intro_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.4.0/res/layout/intro_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_repeat_endless.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_repeat_endless.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_unit_time.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_unit_time.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/dialog_standalonemode.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/dialog_standalonemode.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_credit_row.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_credit_row.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/intro_layout2.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.4.0/res/layout/intro_layout2.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/activity_splash_screen.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/default_indicator.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.4.0/res/layout/default_indicator.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/content_clicker_vibrate_on_click.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/content_clicker_vibrate_on_click.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_layout_tab_text.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_template_lines.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/preference_dialog_edittext.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/res/layout/preference_dialog_edittext.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/preference_information.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/res/layout/preference_information.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/activity_translucent.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/src/main/res/layout/activity_translucent.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/preference_recyclerview.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/res/layout/preference_recyclerview.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
+    }
+]

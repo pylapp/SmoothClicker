@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout-v21/intro_layout.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.4.0/res/layout-v21/intro_layout.xml"
+    },
+    {
+        "merged": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/res/merged/release/layout-v21/intro_layout2.xml",
+        "source": "/home/pylapp/Documents/pro/6_projets/SmoothClicker/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.4.0/res/layout-v21/intro_layout2.xml"
+    }
+]

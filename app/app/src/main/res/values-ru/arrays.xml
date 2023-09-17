@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+
+<resources>
+
+    <!-- ******************** -->
+    <!-- The standalone modes -->
+    <!-- ******************** -->
+
+    <string-array name="standalone_mode_titles">
+        <item>JSON файлы</item>
+        <item>JSON файлы и загрузка вместе с экраном</item>
+    </string-array>
+
+    <string-array name="standalone_mode_descriptions">
+        <item>Использовать два JSON файла, что-бы настроить процесс тапов</item>
+        <item>Использовать два JSON файла и захват экрана, что-бы настроить и запустить процесс кликов</item>
+    </string-array>
+
+    <!-- ********************** -->
+    <!-- The intro screen pages -->
+    <!-- ********************** -->
+
+    <string-array name="introscreen_titles">
+        <item>Эй!</item>
+        <item>Рут</item>
+        <item>Клики</item>
+        <item>Уведомления</item>
+        <item>Настройки</item>
+        <item>Автоматический</item>
+        <item>Распознание экрана</item>
+        <item>Рожден что бы быть свободным</item>
+    </string-array>
+
+    <string-array name="introscreen_summaries">
+        <item>Добро пожаловать в Smooth Clicker!</item>
+        <item>Вам нужен рутованный смартфон что-бы использовать приложенние</item>
+        <item>Определите несколько кликов, что бы запустить процесс&#8230; </item>
+        <item>&#8230; и настройте процесс с уведомлениями, вибрацией и тд.</item>
+        <item>Некоторые JSON файлы могут быть для настройки конфига процесса тапов.</item>
+        <item>Автоматический режим может начать процесс тапов используя только JSON Файл для конфига.</item>
+        <item>Автоматический режим может так же начать процесс тапов в зависимости от картинки на экране.</item>
+        <item>Smooth Clicker полностью бесплатное ПО с открытым исходным кодом!</item>
+    </string-array>
+
+
+    <!-- *********** -->
+    <!-- The credits -->
+    <!-- *********** -->
+
+    <string-array name="credits_labels">
+        <item>Smooth Clicker</item>
+        <item>Logo de l\'application</item>
+        <item>Material Arc Menu</item>
+        <item>SwitchButton</item>
+        <item>AppIntro</item>
+        <item>Swipe Selector</item>
+        <item>Material SeekBar Preference</item>
+        <item>Dexter</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>Автор: pylapp</item>
+        <item>Иконки сделаны: Freepik из www.flaticon.com</item>
+        <item>Библиотеку сделал: Saurabh Arora</item>
+        <item>Библиотеку сделал: kyleduo</item>
+        <item>Библиотеку сделал: Paolo Rotolo</item>
+        <item>Библиотеку сделал: Iiro Krankka</item>
+        <item>Библиотеку сделал: Pavel Sikun</item>
+        <item>Библиотеку сделал: Karumi</item>
+        <item>Иконки сделаны: Freepik из www.flaticon.com</item>
+        <item>Иконки сделаны: Elegant Темы из www.flaticon.com</item>
+        <item>Иконки сделаны: Yannick из www.flaticon.com</item>
+        <item>Иконки сделаны: Vaadin из www.flaticon.com</item>
+        <item>Иконки сделаны: Madebyoliver из www.flaticon.com</item>
+    </string-array>
+
+    <string-array name="credits_urls">
+        <item>https://github.com/pylapp/SmoothClicker</item>
+        <item>http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726</item>
+        <item>https://github.com/saurabharora90/MaterialArcMenu</item>
+        <item>https://github.com/kyleduo/SwitchButton</item>
+        <item>https://github.com/PaoloRotolo/AppIntro</item>
+        <item>https://github.com/roughike/SwipeSelector</item>
+        <item>https://github.com/MrBIMC/MaterialSeekBarPreference</item>
+        <item>https://github.com/Karumi/Dexter</item>
+        <item>http://www.flaticon.com/authors/freepik</item>
+        <item>http://www.flaticon.com/authors/elegant-themes</item>
+        <item>http://www.flaticon.com/authors/yannick</item>
+        <item>http://www.flaticon.com/authors/vaadin</item>
+        <item>http://www.flaticon.com/authors/madebyoliver</item>
+    </string-array>
+
+    <string-array name="credits_licenses">
+        <item>Лицензия MIT</item>
+        <item>Лицензия Flaticon Basic</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Flaticon Basic</item>
+        <item>Лицензия CC 3.0 BY</item>
+        <item>Лицензия CC 3.0 BY</item>
+        <item>Лицензия CC 3.0 BY</item>
+        <item>Лицензия Flaticon Basic</item>
+    </string-array>
+
+    <string-array name="thanks_labels">
+        <item>перевод</item>
+        <item>перевод</item>
+    </string-array>
+
+    <string-array name="thanks_flags">
+        <item>RU</item>
+        <item>IT</item>
+    </string-array>
+
+    <string-array name="thanks_whos">
+        <item>Артем Дементьев</item>
+        <item>fuomag9</item>
+    </string-array>
+
+</resources>

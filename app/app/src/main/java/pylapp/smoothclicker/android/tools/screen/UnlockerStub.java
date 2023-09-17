@@ -1,0 +1,72 @@
+/*
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+ */
+// ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一
+
+package pylapp.smoothclicker.android.tools.screen;
+
+/**
+ * Interface which defines the behavior an object must have to unlock a device
+ *
+ * @author Pierre-Yves Lapersonne
+ * @version 1.0.0
+ * @since 31/05/2016
+ */
+public interface UnlockerStub {
+
+    /**
+     * Unlocks the device and trigger the callback when the unlock process has been done
+     * @param callback - The callback to trigger
+     * @throws UnlockException - Thrown when something wrong occurs during the unlock process
+     */
+    void unlock(UnlockCallback callback) throws UnlockException;
+
+
+    /**
+     * Interfaces which defines the behaviour of an unlock callback
+     */
+    interface UnlockCallback {
+
+        /**
+         * Triggered when the unlock process has been made and succeed
+         */
+        void onUnlockSuccess();
+
+        /**
+         * Triggered when the unlock process has been made and failed
+         */
+        void onUnlockFail();
+
+    }
+
+
+    /**
+     * Exception thrown when somethings wring occurs about the unlock process
+     */
+    class UnlockException extends Exception {
+        public UnlockException( String message ){
+            super(message);
+        }
+    }
+
+}

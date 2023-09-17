@@ -1,0 +1,91 @@
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".views.ClickerActivity">
+
+    <!-- The "clean points" feature -->
+    <item
+        android:id="@+id/action_clean_points"
+        android:orderInCategory="100"
+        android:title="@string/action_clean_points"
+        android:icon="@drawable/icon_clean_points"
+        app:showAsAction="ifRoom" />
+
+    <!-- The "clean all" feature -->
+    <item
+        android:id="@+id/action_clean_all"
+        android:orderInCategory="100"
+        android:title="@string/action_clean_all"
+        android:icon="@drawable/icon_clean_all"
+        app:showAsAction="ifRoom" />
+
+    <!-- The "standalone" menu -->
+    <item
+        android:id="@+id/action_standalone"
+        android:orderInCategory="100"
+        android:title="@string/action_standalone"
+        app:showAsAction="never" />
+
+    <!-- The "configuration" menu -->
+    <item
+        android:id="@+id/action_configuration"
+        android:orderInCategory="100"
+        android:title="@string/action_configuration"
+        app:showAsAction="never">
+
+        <menu>
+            <!-- The "export as JSON" menu -->
+            <item
+                android:id="@+id/action_export"
+                android:orderInCategory="100"
+                android:title="@string/action_export"
+                app:showAsAction="never" />
+            <!-- The "import as JSON" menu -->
+            <item
+                android:id="@+id/action_import"
+                android:orderInCategory="100"
+                android:title="@string/action_import"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+    <!-- The "settings" menu -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <!-- The "exit" menu -->
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
+
+</menu>

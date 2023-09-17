@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+
+<resources>
+
+    <!-- ******************** -->
+    <!-- The standalone modes -->
+    <!-- ******************** -->
+
+    <string-array name="standalone_mode_titles">
+        <item>JSON files</item>
+        <item>JSON files and boot according to the screen</item>
+    </string-array>
+
+    <string-array name="standalone_mode_descriptions">
+        <item>Use the two JSON files to set tup the click process</item>
+        <item>Use the two JSON files and the screen capture to set up and start the click process</item>
+    </string-array>
+
+    <!-- ********************** -->
+    <!-- The intro screen pages -->
+    <!-- ********************** -->
+
+    <string-array name="introscreen_titles">
+        <item>Hey!</item>
+        <item>Root</item>
+        <item>Clicks</item>
+        <item>Notifications</item>
+        <item>Configuration</item>
+        <item>Standalone</item>
+        <item>Screen recognition</item>
+        <item>Born to be free</item>
+    </string-array>
+
+    <string-array name="introscreen_summaries">
+        <item>Welcome to Smooth Clicker!</item>
+        <item>You need to have a rooted Android device to use this app.</item>
+        <item>Define several clicks to process&#8230; </item>
+        <item>&#8230; and configure the process with notifications, vibrations etc.</item>
+        <item>Some JSON files can be used to store the configuration of the click process.</item>
+        <item>The standalone mode can start the click process using only the JSON configuration files.</item>
+        <item>The standalone mode can also start the click process according to a picture of the screen.</item>
+        <item>Smooth Clicker is both free and open-source!</item>
+    </string-array>
+
+
+    <!-- *********** -->
+    <!-- The credits -->
+    <!-- *********** -->
+
+    <string-array name="credits_labels">
+        <item>Smooth Clicker</item>
+        <item>App logo</item>
+        <item>Material Arc Menu</item>
+        <item>SwitchButton</item>
+        <item>AppIntro</item>
+        <item>Swipe Selector</item>
+        <item>Material SeekBar Preference</item>
+        <item>Dexter</item>
+        <item>Icons</item>
+        <item>Icons</item>
+        <item>Icons</item>
+        <item>Icons</item>
+        <item>Icons</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>App made by pylapp</item>
+        <item>Icon made by Freepik from www.flaticon.com</item>
+        <item>Library made by Saurabh Arora</item>
+        <item>Library made by kyleduo</item>
+        <item>Library made by Paolo Rotolo</item>
+        <item>Library made by Iiro Krankka</item>
+        <item>Library made by Pavel Sikun</item>
+        <item>Library made by Karumi</item>
+        <item>Icons made by Freepik from www.flaticon.com</item>
+        <item>Icons made by Elegant Themes from www.flaticon.com</item>
+        <item>Icons made by Yannick from www.flaticon.com</item>
+        <item>Icons made by Vaadin from www.flaticon.com</item>
+        <item>Icons made by Madebyoliver from www.flaticon.com</item>
+    </string-array>
+
+    <string-array name="credits_urls">
+        <item>https://github.com/pylapp/SmoothClicker</item>
+        <item>http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726</item>
+        <item>https://github.com/saurabharora90/MaterialArcMenu</item>
+        <item>https://github.com/kyleduo/SwitchButton</item>
+        <item>https://github.com/PaoloRotolo/AppIntro</item>
+        <item>https://github.com/roughike/SwipeSelector</item>
+        <item>https://github.com/MrBIMC/MaterialSeekBarPreference</item>
+        <item>https://github.com/Karumi/Dexter</item>
+        <item>http://www.flaticon.com/authors/freepik</item>
+        <item>http://www.flaticon.com/authors/elegant-themes</item>
+        <item>http://www.flaticon.com/authors/yannick</item>
+        <item>http://www.flaticon.com/authors/vaadin</item>
+        <item>http://www.flaticon.com/authors/madebyoliver</item>
+    </string-array>
+
+    <string-array name="credits_licenses">
+        <item>Licence MIT</item>
+        <item>Licence Flaticon Basic</item>
+        <item>Licence Apache v2</item>
+        <item>Licence Apache v2</item>
+        <item>Licence Apache v2</item>
+        <item>Licence Apache v2</item>
+        <item>Licence Apache v2</item>
+        <item>Licence Apache v2</item>
+        <item>Licence Flaticon Basic</item>
+        <item>Licence CC 3.0 BY</item>
+        <item>Licence CC 3.0 BY</item>
+        <item>Licence CC 3.0 BY</item>
+        <item>Licence Flaticon Basic</item>
+    </string-array>
+
+    <string-array name="thanks_labels">
+        <item>Translation</item>
+        <item>Translation</item>
+    </string-array>
+
+    <string-array name="thanks_flags">
+        <item>RU</item>
+        <item>IT</item>
+    </string-array>
+
+    <string-array name="thanks_whos">
+        <item>Артем Дементьев</item>
+        <item>fuomag9</item>
+    </string-array>
+
+</resources>

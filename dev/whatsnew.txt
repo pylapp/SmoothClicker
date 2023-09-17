@@ -1,0 +1,91 @@
+v1.0.0 : Astonishing Ant
+    - First version of the app
+v1.2.0
+    - Vibrations on clicks, credits for third-party contents
+v1.3.0 : Blazing Buffalo
+    - Splash screen
+v1.4.0 : Crazy Crane
+    - Material designed components, exit dialog
+v1.5.0 : Dumb dodo
+    - Notifications about the clicks and the state of the app, back button
+v1.5.1
+    - Endless repeat, french support
+v1.6.0 : Elastic Elephant
+    - Selection of a point everywhere on the screen with a transparent view
+v1.6.1
+    - Selection of several points
+v1.6.2
+    - Shake to clean, settings view, more debug and more Javadoc HTML doc
+v1.6.3
+    - Notifications with countdowns for delayed starts
+v1.7.0 : Freaky Fawn
+    - Klingon support
+    - Service reachable from the outside
+    - Some bugs fixes
+v1.7.2
+    - More debug
+v1.8.0 : Galactic Gorilla
+    - A lot of bugs have been fixed
+    - Improve the GUI
+v1.8.1
+    - More fixed bugs
+v1.8.2
+    - More refactor
+    - Optimization
+v1.9.0 : Holy Hedgehog
+    - New feature: possible to restore all the default values
+    - New feature: possible to delete all the selected points
+    - New feature: an helping toast is displayed on the clicking screen when the user is inactive
+    - New feature: a snackbar is displayed to show to the user its defined action, instead of a toast
+    - New feature: the user can undo its action thanks to a dismiss button in the snackbar
+    - New feature: now an intro screen is displayed at the very first start of the app
+    - Refactor the GUI with a new switch button
+    - Refactor the credits view
+    - Support for: spanish
+    - More bug fixes
+    - More optimization and clean
+v1.9.1
+    - Support for languages russian, german, portuguese and korean
+v1.9.2
+    - Fixed bug which may appear on start of the app
+    - Fixed a display bug in the list of points (a strange x = 0 / y = 0 point)
+    - Clean some verbatims
+v1.9.3
+    - Fixed bug which may produce a force close (NullPointerException on main activity's SwitchButton)
+    - Fixed bug which may make a white icons bar for full screen views
+    - Support for languages romanian, polish and finnish
+v2.0.0 : Incredible Indri
+    - Support for italian and catalan
+    - Improved some components to make them more material
+    - Refactor main view
+    - Add new icons to floating arc menu
+    - Add some references to tutorials about how to root the device
+    - Fixed some bugs
+    - Update and optimize the credits view
+    - Update the intro screens
+    - Refactor the preferences screen
+    - Deal with the new system which manage permissions for Android 6.0+
+    - The intro screen is available from the settings screen as an help
+    - Import / export the configuration of the app (process and points) from / to JSON files
+    - Play a sound if a click is made
+    - Possible to choose its time unit for the click process (ms, s, m or h)
+    - Standalone mode using only predefined configuration in JSON files
+    - Standalone mode using predefined configuration in JSON files and a screen-recognition-pattern
+    - Force the screen to be on if off
+    - Keep the screen on if needed
+    - Use a Shell script using ADB commands to unlock the screen if needed
+    - Possible to define random points when long click on the screen
+    - Support for landscape mode for handsets and tablets, for 6", 7" and 10" screens devices
+v2.1.0 : Juicy Jellyfish
+    - The click process has been improved if unit time in use is millisecond, but it may be not fully accurate due to thread performances and sleep times
+    - The arc menu will be closed if the user clicks on the "start" floating button
+    - A bug with several selected radio buttons on rotation has been fixed
+v2.1.3
+    - Deleted languages which were not well translated and keep well-translated ones (fr, en, ru, it)
+    - Updated the credits view with references to people who have brought some help for translations
+
+
+
+
+
+

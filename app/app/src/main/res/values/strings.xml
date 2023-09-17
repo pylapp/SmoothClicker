@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+
+<resources>
+
+    <!-- For the app -->
+    <string name="app_name">Smooth Clicker</string>
+    <string name="app_sharedUserId">pylapp.smoothclicker.android.sharedUserId</string>
+    <string name="app_author">https://twitter.com/pylapp</string>
+    <string name="app_sharedUserLabel">ID to access to the Smooth Clicker\'s world</string>
+    <string name="service_label_serviceclicker">Service Clicker of Smooth Clicker</string>
+
+    <!-- Standalone activity -->
+    <string name="app_name_standalone">Smooth Clicker (standalone)</string>
+    <string name="standalone_init_config">Config values are picked &#8230;</string>
+    <string name="standalone_init_points">Points to click on are picked &#8230;</string>
+    <string name="standalone_start_click_process">The standalone mode is starting &#8230;</string>
+    <string name="standalone_bad_action">Woops &#8230;, you did not use a good action to trigger this activity!</string>
+
+    <!-- Menus -->
+    <string name="action_exit">Exit</string>
+    <string name="action_settings">Preferences</string>
+    <string name="action_clean_points">Delete the selected points</string>
+    <string name="action_clean_all">Reset the values and delete the selected points</string>
+    <string name="action_export">Export to JSON file</string>
+    <string name="action_import">Import from JSON file</string>
+    <string name="action_configuration">Configuration</string>
+    <string name="action_standalone">Standalone mode</string>
+
+    <!-- Messages -->
+    <string name="info_message_start">Save the configuration and starts the procesus</string>
+    <string name="info_message_stop">Stop all process</string>
+    <string name="info_message_request_su">Ask for the SU grant</string>
+    <string name="info_message_su_granted">The SU authorization has been granted :-)</string>
+    <string name="info_message_new_point">Select new points on the screen</string>
+    <string name="info_message_invite_new_points">Click on the screen to select the point, then back</string>
+    <string name="info_message_invite_new_random_points">Long click on the screen to select a random point, then back</string>
+    <string name="info_export_success">Export has been made</string>
+    <string name="info_export_fail">Export has failed</string>
+    <string name="info_import_success">Import has been made</string>
+    <string name="info_import_fail">Import has failed</string>
+    <string name="info_standalone_activated">The standalone mode will start</string>
+    <string name="info_standalone_disactivated">The standalone mode will stop</string>
+
+    <string name="error_message_su_not_granted">The SU authorization has not been granted x-(</string>
+    <string name="error_su_missing">Did you root your Android before using this app? It is mandatory.</string>
+    <string name="error_message_no_click_defined">¯\\_(ツ)_/¯ No clicks defined</string>
+    <string name="error_message_was_not_working">(－‸ლ) The process is not started</string>
+    <string name="error_nothing_to_open_json">Woops nothing can open the .json file</string>
+    <string name="error_nothing_to_open_file">Woops nothing can open this file</string>
+
+    <string name="warning_hazard_repeat_endless_title">Hazardous operation</string>
+    <string name="warning_hazard_repeat_endless_content">Are you sure to make an endless repeat? This operation may be hazardous for your device.</string>
+    <string name="warning_hazard_repeat_endless_no">Nope!</string>
+    <string name="warning_hazard_repeat_endless_yes">Feur frei!</string>
+
+    <!-- Widgets -->
+    <string name="widget_no_points">No selected point yet</string>
+    <string name="widget_type_of_start">Start</string>
+    <string name="widget_unit_time">Time</string>
+    <string name="widget_unit_time_ms">millisecond</string>
+    <string name="widget_unit_time_s">second</string>
+    <string name="widget_unit_time_m">minute</string>
+    <string name="widget_unit_time_h">hour</string>
+    <string name="widget_delay">Delay</string>
+    <string name="widget_speed">Time before each click</string>
+    <string name="widget_repeat">Repeat</string>
+    <string name="widget_repeat_hint">&#8230; times</string>
+    <string name="widget_repeat_endless">Endless repeat</string>
+    <string name="widget_vibrate_on_start">Vibrate on start</string>
+    <string name="widget_vibrate_on_click">Vibrate on click</string>
+    <string name="widget_delayed_starts">Delayed</string>
+    <string name="widget_immediate_starts">Now</string>
+    <string name="widget_xy_coordinates">Points to click on</string>
+    <string name="widget_notifications">Notifications</string>
+    <string name="widget_standalone_dialog_title">Standalone mode</string>
+    <string name="widget_sounds">Ring on each click</string>
+
+    <!-- Splash screen -->
+    <string name="splashscreen_description">Smooth Clicker</string>
+
+    <!-- Notifications -->
+    <string name="notif_content_title">Smooth Clicker</string>
+    <string name="notif_content_text_click_made">New click </string>
+    <string name="notif_content_text_clicks_on_going_app">The click process is running (through the app)&#8230; </string>
+    <string name="notif_content_text_clicks_on_going_service">The click process is running (through the service)&#8230; </string>
+    <string name="notif_content_text_clicks_on_going_standalone">The click process is running (standalone)&#8230;</string>
+    <string name="notif_content_text_clicks_stop">The click process has been stopped</string>
+    <string name="notif_content_text_clicks_over">The click process is over</string>
+    <string name="notif_content_text_su_granted">The super-user permission has been granted</string>
+    <string name="notif_content_text_countdown">Start in:</string>
+    <string name="notif_content_text_watch_over">The watch process is over</string>
+
+    <!-- Settings / Preferences -->
+    <string name="pref_settings_title">Main</string>
+    <string name="pref_settings_shaketoclean_title">Shake to clean</string>
+    <string name="pref_settings_shaketoclean_summary">Shake your device to make the configuration empty</string>
+
+    <!--<string name="pref_settings_start_standalone_on_boot_title">Clicks on boot</string>-->
+    <!--<string name="pref_settings_start_standalone_on_boot_summary">Starts the standalone mode with only JSON files when the device has booted</string>-->
+
+    <string name="pref_picture_recognition_title">Screen recognition</string>
+    <string name="pref_settings_prthreshold_title">Threshold</string>
+    <string name="pref_settings_prthreshold_summary">The more the threshold is, the more accepted are the differences between the trigger picture and the last screen-shot made</string>
+    <string name="pref_settings_prfrequency_title">Time for capture</string>
+    <string name="pref_settings_prfrequency_summary">The higher is the time for the capture, the slower will be the system to take screen shots of the device to trigger the click process</string>
+
+    <string name="pref_app_files">Storage</string>
+    <string name="pref_app_files_title">Files used by the app</string>
+    <string name="pref_app_files_summary">Click to manage the files in use</string>
+    <string name="pref_app_files_points_title">Points</string>
+    <string name="pref_app_files_points_name">File containing the points</string>
+    <string name="pref_app_files_points_content">Read</string>
+    <string name="pref_app_files_config_title">Configuration</string>
+    <string name="pref_app_files_config_name">File containing the configuration</string>
+    <string name="pref_app_files_config_content">Read</string>
+    <string name="pref_app_files_unlock_title">Unlock script</string>
+    <string name="pref_app_files_unlock_name">File containing the unlock script</string>
+    <string name="pref_app_files_unlock_content">Read</string>
+    <string name="pref_app_files_trigger_title">Trigger picture</string>
+    <string name="pref_app_files_trigger_name">Picture file which starts the click process</string>
+    <string name="pref_app_files_trigger_content">Read</string>
+
+    <string name="pref_credits_title">Credits</string>
+    <string name="pref_key_credit_title">This app uses third party contents</string>
+    <string name="pref_key_credit_summary">Click here to show the licenses</string>
+
+    <string name="pref_about_title">About</string>
+    <string name="pref_about_subtitle">Smooth Clicker</string>
+    <string name="pref_about_summary">Click to get more</string>
+    <string name="pref_about_version_title">Version</string>
+    <string name="pref_about_version_app_title">Smooth Clicker</string>
+    <string name="pref_about_version_app_summary">written by pylapp - License MIT</string>
+    <string name="pref_play_store_title">&#9733; Google Play &#9733;</string>
+    <string name="pref_play_store_summary">Feel free to rate and comment the app</string>
+
+    <string name="pref_wakescreenbattery_title">Awake and battery</string>
+    <string name="pref_key_wakelock_title">Wakelock</string>
+    <string name="pref_key_wakelock_summary">Use wakelocks to make the device always screen on (can reduce a lot the battery)</string>
+    <string name="pref_key_forcescreenon_battery_title">Force screen on</string>
+    <string name="pref_key_forcescreenon_battery_summary">When the screen is off, turn it on if the device uses its battery and not the power supply</string>
+
+    <string name="pref_unlockscript_title">Unlock</string>
+    <string name="pref_key_unlockscript_title">ADB script</string>
+    <string name="pref_key_unlockscript_summary">Use a dedicated custom script having system commands to unlock the device</string>
+
+    <string name="pref_root_title">Root</string>
+    <string name="pref_root_subtitle">How to root my device?</string>
+    <string name="pref_root_summary">Click to get more</string>
+    <string name="pref_key_root_heimdall_title">Heimdall</string>
+    <string name="pref_key_root_heimdall_summary">Go to Heimdall to root your device with Linux</string>
+    <string name="pref_key_root_odin_title">Odin</string>
+    <string name="pref_key_root_odin_summary">Go to Odin to root your device with Windows</string>
+    <string name="pref_key_root_chainfire_title">Chainfire XDA</string>
+    <string name="pref_key_root_chainfire_summary">Go to Chainfire to get more knowledge about root process</string>
+    <string name="pref_heimdall_url">https://doc.ubuntu-fr.org/heimdall</string>
+    <string name="pref_odin_url">http://odindownload.com/</string>
+    <string name="pref_chainfire_url">https://www.chainfire.eu/</string>
+    <string name="pref_key_help_title">Help</string>
+    <string name="pref_key_help_summary">Start the tutorial</string>
+
+    <!-- Snackbars -->
+    <string name="snackbar_action_dismiss">Undo</string>
+
+    <!-- Permissions -->
+    <string name="permission_write_external_storage_title">EXTERNAL STORAGE WRITE permission</string>
+    <string name="permission_write_external_storage_summary">The app needs this permission to write configuration files in a dedicated folder</string>
+    <string name="permission_read_external_storage_title">EXTERNAL STORAGE READ permission</string>
+    <string name="permission_read_external_storage_summary">The app needs this permission to read configuration files in a dedicated folder</string>
+
+    <!-- Misc. -->
+    <string name="error_not_implemented">Not implemented yet!</string>
+    <string name="message_reinit_config">Clean up&#8230; </string>
+    <string name="message_confirm_exit_label">Exit</string>
+    <string name="message_confirm_exit_content">Do you want to quit the app?</string>
+    <string name="app_intro">Welcome to Smooth Clicker</string>
+    <string name="snackbar_see_config_file">Read</string>
+    <string name="dialog_negative_button">Cancel</string>
+    <string name="dialog_positive_button">OK</string>
+
+</resources>

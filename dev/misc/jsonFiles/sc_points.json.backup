@@ -1,0 +1,9 @@
+{
+  "note": "In a galaxy of points, far, far away...",
+  "points": [
+    {"x" : "007", "y": "l337", "desc": "A point for g33k"},
+    {"x" : "0", "y": "42", "desc": "The very point"},
+    {"x" : "666", "y": "666", "desc": "Wow, it should be a hot point"},
+    {"x" : "123", "y": "456", "desc": "Just another point"}
+  ]
+}

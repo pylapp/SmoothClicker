@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="credits_descriptions">
+        <item>Автор: pylapp</item>
+        <item>Иконки сделаны: Freepik из www.flaticon.com</item>
+        <item>Библиотеку сделал: Saurabh Arora</item>
+        <item>Библиотеку сделал: kyleduo</item>
+        <item>Библиотеку сделал: Paolo Rotolo</item>
+        <item>Библиотеку сделал: Iiro Krankka</item>
+        <item>Библиотеку сделал: Pavel Sikun</item>
+        <item>Библиотеку сделал: Karumi</item>
+        <item>Иконки сделаны: Freepik из www.flaticon.com</item>
+        <item>Иконки сделаны: Elegant Темы из www.flaticon.com</item>
+        <item>Иконки сделаны: Yannick из www.flaticon.com</item>
+        <item>Иконки сделаны: Vaadin из www.flaticon.com</item>
+        <item>Иконки сделаны: Madebyoliver из www.flaticon.com</item>
+    </string-array>
+    <string-array name="credits_labels">
+        <item>Smooth Clicker</item>
+        <item>Logo de l\'application</item>
+        <item>Material Arc Menu</item>
+        <item>SwitchButton</item>
+        <item>AppIntro</item>
+        <item>Swipe Selector</item>
+        <item>Material SeekBar Preference</item>
+        <item>Dexter</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+        <item>Иконки</item>
+    </string-array>
+    <string-array name="credits_licenses">
+        <item>Лицензия MIT</item>
+        <item>Лицензия Flaticon Basic</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Apache v2</item>
+        <item>Лицензия Flaticon Basic</item>
+        <item>Лицензия CC 3.0 BY</item>
+        <item>Лицензия CC 3.0 BY</item>
+        <item>Лицензия CC 3.0 BY</item>
+        <item>Лицензия Flaticon Basic</item>
+    </string-array>
+    <string-array name="credits_urls">
+        <item>https://github.com/pylapp/SmoothClicker</item>
+        <item>http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726</item>
+        <item>https://github.com/saurabharora90/MaterialArcMenu</item>
+        <item>https://github.com/kyleduo/SwitchButton</item>
+        <item>https://github.com/PaoloRotolo/AppIntro</item>
+        <item>https://github.com/roughike/SwipeSelector</item>
+        <item>https://github.com/MrBIMC/MaterialSeekBarPreference</item>
+        <item>https://github.com/Karumi/Dexter</item>
+        <item>http://www.flaticon.com/authors/freepik</item>
+        <item>http://www.flaticon.com/authors/elegant-themes</item>
+        <item>http://www.flaticon.com/authors/yannick</item>
+        <item>http://www.flaticon.com/authors/vaadin</item>
+        <item>http://www.flaticon.com/authors/madebyoliver</item>
+    </string-array>
+    <string-array name="introscreen_summaries">
+        <item>Добро пожаловать в Smooth Clicker!</item>
+        <item>Вам нужен рутованный смартфон что-бы использовать приложенние</item>
+        <item>Определите несколько кликов, что бы запустить процесс… </item>
+        <item>… и настройте процесс с уведомлениями, вибрацией и тд.</item>
+        <item>Некоторые JSON файлы могут быть для настройки конфига процесса тапов.</item>
+        <item>Автоматический режим может начать процесс тапов используя только JSON Файл для конфига.</item>
+        <item>Автоматический режим может так же начать процесс тапов в зависимости от картинки на экране.</item>
+        <item>Smooth Clicker полностью бесплатное ПО с открытым исходным кодом!</item>
+    </string-array>
+    <string-array name="introscreen_titles">
+        <item>Эй!</item>
+        <item>Рут</item>
+        <item>Клики</item>
+        <item>Уведомления</item>
+        <item>Настройки</item>
+        <item>Автоматический</item>
+        <item>Распознание экрана</item>
+        <item>Рожден что бы быть свободным</item>
+    </string-array>
+    <string-array name="standalone_mode_descriptions">
+        <item>Использовать два JSON файла, что-бы настроить процесс тапов</item>
+        <item>Использовать два JSON файла и захват экрана, что-бы настроить и запустить процесс кликов</item>
+    </string-array>
+    <string-array name="standalone_mode_titles">
+        <item>JSON файлы</item>
+        <item>JSON файлы и загрузка вместе с экраном</item>
+    </string-array>
+    <string-array name="thanks_flags">
+        <item>RU</item>
+        <item>IT</item>
+    </string-array>
+    <string-array name="thanks_labels">
+        <item>перевод</item>
+        <item>перевод</item>
+    </string-array>
+    <string-array name="thanks_whos">
+        <item>Артем Дементьев</item>
+        <item>fuomag9</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="action_clean_all">Сбросить значения и удалить выбранные точки</string>
+    <string name="action_clean_points">Удалить выбранные точки</string>
+    <string name="action_configuration">Конфиг</string>
+    <string name="action_exit">Выход</string>
+    <string name="action_export">Экпортировать в JSON Файл</string>
+    <string name="action_import">Импортировать из JSON файла</string>
+    <string name="action_settings">Предпочтения</string>
+    <string name="action_standalone">Автоматический режим</string>
+    <string name="app_author">https://twitter.com/pylapp</string>
+    <string name="app_intro">Добро пожаловать в Smooth Clicker</string>
+    <string name="app_name">Smooth Clicker</string>
+    <string name="app_name_standalone">Smooth Clicker (автоматический)</string>
+    <string name="app_sharedUserId">pylapp.smoothclicker.android.sharedUserId</string>
+    <string name="app_sharedUserLabel">ID to access to the Smooth Clicker\'s world</string>
+    <string name="dialog_negative_button">Отмена</string>
+    <string name="dialog_positive_button">Ок</string>
+    <string name="error_message_no_click_defined">¯\\_(ツ)_/¯ Нету выбранных кликов</string>
+    <string name="error_message_su_not_granted">Права суперпользователя не получены x-(</string>
+    <string name="error_message_was_not_working">(－‸ლ) Процесс не запущен</string>
+    <string name="error_not_implemented">Исчо не реализовано!</string>
+    <string name="error_nothing_to_open_file">Упс, нечем открыть этот файл</string>
+    <string name="error_nothing_to_open_json">Упс, нечем открыть .json файл</string>
+    <string name="error_su_missing">У вас есть рут права что бы использовать приложение? Это важно</string>
+    <string name="info_export_fail">Экспортирование провалено</string>
+    <string name="info_export_success">Экспортирование завершено</string>
+    <string name="info_import_fail">Импортирование провалено</string>
+    <string name="info_import_success">Импортирование завершено</string>
+    <string name="info_message_invite_new_points">Нажмите на экран что-бы выбрать точку, а потом вернуться назад</string>
+    <string name="info_message_invite_new_random_points">Долгое нажатие на экран что бы выбрать рандомную точку и вернуться назад</string>
+    <string name="info_message_new_point">Выбрать новые точки на экране</string>
+    <string name="info_message_request_su">Запросить доступ суперюзера</string>
+    <string name="info_message_start">Сохранить конфиг и начать процесс</string>
+    <string name="info_message_stop">Остановить все процессы</string>
+    <string name="info_message_su_granted">Права суперпользователя получены! :-)</string>
+    <string name="info_standalone_activated">Автоматический режим активирован</string>
+    <string name="info_standalone_disactivated">Автоматический режим деактивирован</string>
+    <string name="message_confirm_exit_content">Вы хотите выйти из приложения</string>
+    <string name="message_confirm_exit_label">Выход</string>
+    <string name="message_reinit_config">Очистить… </string>
+    <string name="notif_content_text_click_made">Новый тап</string>
+    <string name="notif_content_text_clicks_on_going_app">Процесс кликов запущен (В приложении)… </string>
+    <string name="notif_content_text_clicks_on_going_service">Процесс кликов запущен (В сервисе)… </string>
+    <string name="notif_content_text_clicks_on_going_standalone">Процесс кликов щапущен (автоматически)…</string>
+    <string name="notif_content_text_clicks_over">Процесс кликов завершен</string>
+    <string name="notif_content_text_clicks_stop">Процесс кликов остановлен</string>
+    <string name="notif_content_text_countdown">Запуск через:</string>
+    <string name="notif_content_text_su_granted">Рут права получены</string>
+    <string name="notif_content_text_watch_over">Вотч процесс остановлен</string>
+    <string name="notif_content_title">Smooth Clicker</string>
+    <string name="permission_read_external_storage_summary">Это разрешение нужно, что-бы читать конфиги</string>
+    <string name="permission_read_external_storage_title">EXTERNAL STORAGE READ разрешение</string>
+    <string name="permission_write_external_storage_summary">Это разрешение нужно, что-бы записывать конфиги</string>
+    <string name="permission_write_external_storage_title">EXTERNAL STORAGE WRITE разрешение</string>
+    <string name="pref_about_subtitle">Smooth Clicker</string>
+    <string name="pref_about_summary">Нажмите, что-бы получить больше</string>
+    <string name="pref_about_title">О приложении</string>
+    <string name="pref_about_version_app_summary">Написано pylapp - Лицензия MIT</string>
+    <string name="pref_about_version_app_title">Smooth Clicker</string>
+    <string name="pref_about_version_title">Версия</string>
+    <string name="pref_app_files">Хранилище</string>
+    <string name="pref_app_files_config_content">Чтение</string>
+    <string name="pref_app_files_config_name">Файлы, содержащие конфиг</string>
+    <string name="pref_app_files_config_title">Конфиг</string>
+    <string name="pref_app_files_points_content">Чтение</string>
+    <string name="pref_app_files_points_name">Файлы, содержащие точки</string>
+    <string name="pref_app_files_points_title">Точки</string>
+    <string name="pref_app_files_summary">Нажмите, что бы управлять используемыми файлами</string>
+    <string name="pref_app_files_title">Файлы, используемые приложением </string>
+    <string name="pref_app_files_trigger_content">Чтение</string>
+    <string name="pref_app_files_trigger_name">Файл изображения, который запустит процесс</string>
+    <string name="pref_app_files_trigger_title">Триггер изображения</string>
+    <string name="pref_app_files_unlock_content">Чтение</string>
+    <string name="pref_app_files_unlock_name">Файлы, содержащие разблокировку скрипта</string>
+    <string name="pref_app_files_unlock_title">Разблокировать скрипт</string>
+    <string name="pref_chainfire_url">https://www.chainfire.eu/</string>
+    <string name="pref_credits_title">Авторы</string>
+    <string name="pref_heimdall_url">https://doc.ubuntu-fr.org/heimdall</string>
+    <string name="pref_key_credit_summary">Нажмите сюда, что-бы показать лицензии</string>
+    <string name="pref_key_credit_title">Это приложение использует контет третьих лиц</string>
+    <string name="pref_key_forcescreenon_battery_summary">Когда экран выкллючен, включать его если не подключена зарядка.</string>
+    <string name="pref_key_forcescreenon_battery_title">Принудительное включение экрана</string>
+    <string name="pref_key_help_summary">Начать туториал</string>
+    <string name="pref_key_help_title">Помощь</string>
+    <string name="pref_key_root_chainfire_summary">Перейти на Chainfire что-бы получить больше информации по получению рута</string>
+    <string name="pref_key_root_chainfire_title">Chainfire XDA</string>
+    <string name="pref_key_root_heimdall_summary">Перейти на Heimdall что-бы рутануть ваш девайс с помощью Linux\'а</string>
+    <string name="pref_key_root_heimdall_title">Heimdall</string>
+    <string name="pref_key_root_odin_summary">Перейти на Odin что-бы рутануть ваш самсунг с помощью Windows</string>
+    <string name="pref_key_root_odin_title">Odin</string>
+    <string name="pref_key_unlockscript_summary">Использовать выделенный кастомный скрипт, который использует системные команды, что бы экран не выключался</string>
+    <string name="pref_key_unlockscript_title">ADB скрипт</string>
+    <string name="pref_key_wakelock_summary">Использовать вейклок что-бы экран не гас (Может жрать много батарейки)</string>
+    <string name="pref_key_wakelock_title">Вейклок</string>
+    <string name="pref_odin_url">http://odindownload.com/</string>
+    <string name="pref_picture_recognition_title">Распознование экрана</string>
+    <string name="pref_play_store_summary">Оценивайте приложение и комментируйте!</string>
+    <string name="pref_play_store_title">★ Google Play ★</string>
+    <string name="pref_root_subtitle">Как получить рут на мой девайс?</string>
+    <string name="pref_root_summary">Нажмите, что-бы получить больше</string>
+    <string name="pref_root_title">Рут</string>
+    <string name="pref_settings_prfrequency_summary">Чем больше время для захвата, тем медленнее система будет делать скриншоты девайса что-бы запустить триггер процесса кликов.</string>
+    <string name="pref_settings_prfrequency_title">Время для захвата</string>
+    <string name="pref_settings_prthreshold_summary">Чем больше порог, тем больше разница между триггером изображения и последним скриншотом.</string>
+    <string name="pref_settings_prthreshold_title">Порог</string>
+    <string name="pref_settings_shaketoclean_summary">Встряхните девайс что-бы очистить кеонфиг</string>
+    <string name="pref_settings_shaketoclean_title">Встряхните что бы очистить</string>
+    <string name="pref_settings_title">Основные натсройки</string>
+    <string name="pref_unlockscript_title">Разблокировка</string>
+    <string name="pref_wakescreenbattery_title">Пробуждение и батарейка</string>
+    <string name="service_label_serviceclicker">Сервис кликера Smooth Clicker</string>
+    <string name="snackbar_action_dismiss">Отмена</string>
+    <string name="snackbar_see_config_file">Чтение</string>
+    <string name="splashscreen_description">Smooth Clicker</string>
+    <string name="standalone_bad_action">Упс …, Вы не выбрали правильное действие, что бы поставить триггер на это действие!</string>
+    <string name="standalone_init_config">Значения конфига уже выбраны …</string>
+    <string name="standalone_init_points">Точки для тапа выбраны …</string>
+    <string name="standalone_start_click_process">Автоматический режим запускается …</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="warning_hazard_repeat_endless_content">Вы уверены что хотите включить бесконечный повтор? Эта операция может навредить вышему девайсу (Очень сложно выключить)</string>
+    <string name="warning_hazard_repeat_endless_no">Нет!</string>
+    <string name="warning_hazard_repeat_endless_title">Опасная операция</string>
+    <string name="warning_hazard_repeat_endless_yes">Да вообще пофиг, включайте :D</string>
+    <string name="widget_delay">Задержка</string>
+    <string name="widget_delayed_starts">Задержано</string>
+    <string name="widget_immediate_starts">Сейчас</string>
+    <string name="widget_no_points">Точки еще не выбраны</string>
+    <string name="widget_notifications">Уведомления</string>
+    <string name="widget_repeat">Повтор</string>
+    <string name="widget_repeat_endless">Бесконечный повтор</string>
+    <string name="widget_repeat_hint">… кол-во раз</string>
+    <string name="widget_sounds">Звук при каждом тапе</string>
+    <string name="widget_speed">Время перед каждым кликом</string>
+    <string name="widget_standalone_dialog_title">Автоматический режим</string>
+    <string name="widget_type_of_start">Старт</string>
+    <string name="widget_unit_time">Время</string>
+    <string name="widget_unit_time_h">Часы</string>
+    <string name="widget_unit_time_m">Минуты</string>
+    <string name="widget_unit_time_ms">Миллисекунды</string>
+    <string name="widget_unit_time_s">Секунды</string>
+    <string name="widget_vibrate_on_click">Вибрировать на каждом тапе</string>
+    <string name="widget_vibrate_on_start">Вибрировать на старте</string>
+    <string name="widget_xy_coordinates">Точки для того что-бы тапать</string>
+</resources>

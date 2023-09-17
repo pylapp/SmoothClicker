@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MIT License
+
+    Copyright (c) 2016  Pierre-Yves Lapersonne (Mail: dev@pylapersonne.info)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<!-- ✿✿✿✿ ʕ •ᴥ•ʔ/ ︻デ═一 -->
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/colorMisterGrey"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".views.ClickerActivity"
+        android:id="@+id/clickerActivityMainLayout">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ************************** -->
+        <!-- Row 0 : the list of points -->
+        <!-- ************************** -->
+
+        <include layout="@layout/content_clicker_points"/>
+
+        <!-- ********************** -->
+        <!-- Row 1 : the unit time  -->
+        <!-- ********************** -->
+
+        <include layout="@layout/content_clicker_unit_time" />
+
+        <!-- ************************* -->
+        <!-- Row 2 : the type of start -->
+        <!-- ************************* -->
+
+        <include layout="@layout/content_clicker_start_type" />
+
+        <!-- ***************** -->
+        <!-- Row 3 : the delay -->
+        <!-- ***************** -->
+
+        <include layout="@layout/content_clicker_delay" />
+
+        <!-- ***************** -->
+        <!-- Row 4 : the speed -->
+        <!-- ***************** -->
+
+        <include layout="@layout/content_clicker_time_gap" />
+
+        <!-- ******************** -->
+        <!-- Row 5/6 : the repeat -->
+        <!-- ******************** -->
+
+        <include layout="@layout/content_clicker_repeat" />
+        <include layout="@layout/content_clicker_repeat_endless" />
+
+        <!-- ********************************** -->
+        <!-- Row 7 : the vibrate mode on starts -->
+        <!-- ********************************** -->
+
+        <include layout="@layout/content_clicker_vibrate_on_start" />
+
+        <!-- ********************************* -->
+        <!-- Row 8 : the vibrate mode on click -->
+        <!-- ********************************* -->
+
+        <include layout="@layout/content_clicker_vibrate_on_click" />
+
+        <!-- ****************************** -->
+        <!-- Row 9 : the ring mode on click -->
+        <!-- ****************************** -->
+
+        <include layout="@layout/content_clicker_sounds"/>
+
+        <!-- ********************************* -->
+        <!-- Row 10 : display the notifications -->
+        <!-- ********************************* -->
+
+        <include layout="@layout/content_clicker_notifications"/>
+
+    </LinearLayout>
+
+</ScrollView>
