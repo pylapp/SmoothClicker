@@ -14,7 +14,7 @@ The project was spotted here:
 - [2 Methods to get free instagram followers without following anybody](https://www.youtube.com/watch?v=-iQ23FcSq6Y&t=217s) - youtube.com (2017)
 - [Mobile GUI Testing Fragility: A Study on Open-Source Android Applications](https://iris.polito.it/retrieve/handle/11583/2712643/207640/FINAL_VERSION.pdf), iris.polito.it (2019)
 - [How to create an Auto Clicker app which can click on other apps?](https://stackoverflow.com/questions/61159911/how-to-create-an-auto-clicker-app-which-can-click-on-other-apps) - Stack Overflow (2020)
-- [A little story about an insignificant Android app: birth, growth and death sentence](https://paper.wf/pylapp/h1-a-little-story-about-an-insignificant-android-app-birth-growth-and-death) - paper.wf (2020)
+- [A little story about an insignificant Android app: birth, growth and death sentence](https://write.as/pylapp/a-little-story-about-an-insignificant-android-app-birth-growth-and-death) - write.as (2020)
 
 # Smooth Clicker
 
